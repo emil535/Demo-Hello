@@ -18,7 +18,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8hy-5a-7VP">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="415.5"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Emil_AFI" translatesAutoresizingMaskIntoConstraints="NO" id="Lid-H4-axc">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3822" translatesAutoresizingMaskIntoConstraints="NO" id="Lid-H4-axc">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="375" id="FFN-s5-PuM"/>
@@ -65,7 +65,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Emil_AFI" width="968" height="1162"/>
+        <image name="IMG_3822" width="2448" height="3264"/>
         <image name="QR-IzziPics" width="229" height="229"/>
     </resources>
 </document>
