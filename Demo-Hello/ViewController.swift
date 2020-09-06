@@ -5,6 +5,8 @@
 //  Created by Emil Safier on 9/5/20.
 //  Copyright © 2020 Emil Safier. All rights reserved.
 //
+//  Demo-Hello - a Demo App used to step through adding Git locally
+//  and a remote GitHub repo
 
 import UIKit
 
