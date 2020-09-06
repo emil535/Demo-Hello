@@ -10,7 +10,6 @@
 		2604C6CA25046C8E009AF5BA /* DemoHelloVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2604C6C925046C8E009AF5BA /* DemoHelloVC.swift */; };
 		26CD9F3625042FEC00CA9586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD9F3525042FEC00CA9586 /* AppDelegate.swift */; };
 		26CD9F3825042FEC00CA9586 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD9F3725042FEC00CA9586 /* SceneDelegate.swift */; };
-		26CD9F3A25042FEC00CA9586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD9F3925042FEC00CA9586 /* ViewController.swift */; };
 		26CD9F3D25042FEC00CA9586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CD9F3B25042FEC00CA9586 /* Main.storyboard */; };
 		26CD9F3F25042FEF00CA9586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CD9F3E25042FEF00CA9586 /* Assets.xcassets */; };
 		26CD9F4225042FEF00CA9586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CD9F4025042FEF00CA9586 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		26CD9F3225042FEC00CA9586 /* Demo-Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-Hello.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CD9F3525042FEC00CA9586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26CD9F3725042FEC00CA9586 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26CD9F3925042FEC00CA9586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		26CD9F3C25042FEC00CA9586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26CD9F3E25042FEF00CA9586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26CD9F4125042FEF00CA9586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				26CD9F3525042FEC00CA9586 /* AppDelegate.swift */,
 				26CD9F3725042FEC00CA9586 /* SceneDelegate.swift */,
-				26CD9F3925042FEC00CA9586 /* ViewController.swift */,
 				26CD9F3B25042FEC00CA9586 /* Main.storyboard */,
 				2604C6C925046C8E009AF5BA /* DemoHelloVC.swift */,
 				26CD9F3E25042FEF00CA9586 /* Assets.xcassets */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26CD9F3A25042FEC00CA9586 /* ViewController.swift in Sources */,
 				26CD9F3625042FEC00CA9586 /* AppDelegate.swift in Sources */,
 				2604C6CA25046C8E009AF5BA /* DemoHelloVC.swift in Sources */,
 				26CD9F3825042FEC00CA9586 /* SceneDelegate.swift in Sources */,
@@ -291,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WH8B5RXB5B;
 				INFOPLIST_FILE = "Demo-Hello/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WH8B5RXB5B;
 				INFOPLIST_FILE = "Demo-Hello/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -18,7 +18,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8hy-5a-7VP">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="415.5"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Emil_AFI" translatesAutoresizingMaskIntoConstraints="NO" id="Lid-H4-axc">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Emil_AFI" translatesAutoresizingMaskIntoConstraints="NO" id="Lid-H4-axc">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="375" id="FFN-s5-PuM"/>
@@ -27,21 +27,37 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My name is Emil" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDD-mp-vXy">
                                         <rect key="frame" x="0.0" y="395" width="375" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="fEi-wk-OaD"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QR-IzziPics" translatesAutoresizingMaskIntoConstraints="NO" id="45M-mU-tT2">
+                                <rect key="frame" x="73" y="438" width="229" height="229"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="45M-mU-tT2" secondAttribute="height" multiplier="1:1" id="KHX-cf-00M"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8hy-5a-7VP" secondAttribute="trailing" id="DCW-HN-gO9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="45M-mU-tT2" secondAttribute="bottom" id="Lqt-EG-SdU"/>
+                            <constraint firstItem="45M-mU-tT2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e8N-pH-X5K"/>
                             <constraint firstItem="8hy-5a-7VP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iFq-Za-2np"/>
                             <constraint firstItem="8hy-5a-7VP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="n7x-QE-S6G"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="image" destination="Lid-H4-axc" id="Vem-wY-Kzd"/>
+                        <outlet property="nameLabel" destination="SDD-mp-vXy" id="u9Z-1n-O0S"/>
+                        <outlet property="qrImage" destination="45M-mU-tT2" id="ukw-bA-Nze"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,5 +66,6 @@
     </scenes>
     <resources>
         <image name="Emil_AFI" width="968" height="1162"/>
+        <image name="QR-IzziPics" width="229" height="229"/>
     </resources>
 </document>

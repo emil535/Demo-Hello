@@ -11,8 +11,17 @@
 
 import UIKit
 
-class DemoHelloVC: UIViewController {
 
+
+
+class DemoHelloVC: UIViewController {
+    
+    //  MARK: - Properties
+    
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var qrImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
