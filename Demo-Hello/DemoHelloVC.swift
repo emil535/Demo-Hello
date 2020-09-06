@@ -12,8 +12,6 @@
 import UIKit
 
 
-
-
 class DemoHelloVC: UIViewController {
     
     //  MARK: - Properties
@@ -24,7 +22,7 @@ class DemoHelloVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        nameLabel.text = "Hi my name is Bob Fenster"
         // Do any additional setup after loading the view.
     }
     
