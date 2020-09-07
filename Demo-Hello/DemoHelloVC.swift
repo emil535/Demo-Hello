@@ -22,7 +22,7 @@ class DemoHelloVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        nameLabel.text = "Hi my name is Bob September6 12:37pm"
+        nameLabel.text = "Hi my name is Bob September6 5:05 pm"
         // Do any additional setup after loading the view.
     }
     
